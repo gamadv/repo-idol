@@ -20,6 +20,15 @@ body {
   color: rgb(var(--foreground-rgb));
   @apply bg-white-light
 }
+::-webkit-scrollbar {
+  @apply w-1 h-1
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-dark
+}
+::-webkit-scrollbar-track {
+  @apply bg-none
+}
 
 @layer utilities {
   .text-balance {
