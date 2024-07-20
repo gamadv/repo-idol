@@ -104,7 +104,6 @@ Abrirá a GUI do Cypress, basta seguir esse caminho:
 ``
 E2E Testing > Start E2E in (Browser de preferência) > Arquivo com testes: "favorite_repo_spec.cy.ts
 ``
-
 </details>
 <details>
   <summary>
@@ -120,6 +119,11 @@ E2E Testing > Start E2E in (Browser de preferência) > Arquivo com testes: "favo
 
 Após isso ele abrirá e executará os testes que estão na pasta `cypress/e2e`
 
+![desktop](public/readme-assets/Screenshot_10.png)
+
+
+## Deploy
+O site foi deployado usando **Vercel**. Você pode acessá-lo [aqui](https://repo-idol.vercel.app/).
 ## ❗Débito técnico
 - SWR: Apresentou alguns problemas com Suspense do React, existem algumas anotações do problema na comunidade (links abaixo). Foi contornado com resolução de __Return First__ em loadings: https://www.meje.dev/blog/suspense-in-nextjs
 https://github.com/vercel/next.js/pull/45565
